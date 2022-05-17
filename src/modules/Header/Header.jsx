@@ -1,4 +1,5 @@
 import Menu from "./Menu";
+import Logo from "./Logo"
 
 import s from "./header.module.css";
 
@@ -8,6 +9,7 @@ function Header() {
   return (
     <div>
       <Menu items={headerMenu} />
+      <Logo/>
     </div>
   );
 }
